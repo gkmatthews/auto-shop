@@ -13,3 +13,41 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
+
+/* Services container uses CSS Grid for responsive layout */
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Each service card styling */
+.service-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Service images are full width and maintain aspect ratio */
+.service-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Price area below image */
+.service-price {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: #f9f9f9;
+  margin-top: auto;
+}
