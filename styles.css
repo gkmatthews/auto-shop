@@ -99,3 +99,45 @@ body {
   text-align: center;
 }
 
+/* Base styles for the navigation bar (desktop) */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px; /* space around the text */
+  font-size: 1rem;     /* default font size */
+  font-weight: bold;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Larger nav links and more padding for mobile users */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;  /* stack nav items vertically on smaller screens */
+    padding: 20px;
+  }
+
+  nav a {
+    font-size: 1.5rem;         /* larger font for mobile */
+    padding: 15px 30px;        /* more padding for easier tapping */
+    margin: 10px 0;            /* more space between links */
+    text-align: center;
+    width: 100%;               /* make each link take full width */
+  }
+
+  nav a:hover {
+    background-color: #444;    /* darker background on hover */
+  }
+}
