@@ -14,7 +14,7 @@ body {
     margin: 20px;
 }
 
-/* Services container uses CSS Grid for responsive layout */
+/* Container for all services */
 .services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -22,7 +22,7 @@ body {
   margin-top: 20px;
 }
 
-/* Each service card styling */
+/* Each service card */
 .service-card {
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -31,10 +31,12 @@ body {
   background: #fff;
   display: flex;
   flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  text-align: center;  /* Center all text inside */
   height: 100%;
 }
 
-/* Service images are full width and maintain aspect ratio */
+/* Image */
 .service-card img {
   width: 100%;
   height: auto;
@@ -42,21 +44,19 @@ body {
   object-fit: cover;
 }
 
-/* Price area below image */
-.service-price {
-  padding: 15px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.1rem;
-  background-color: #f9f9f9;
-  margin-top: auto;
+/* Description above the price */
+.service-description {
+  padding: 15px 10px 5px;
+  font-size: 1.3rem;        /* Larger text */
+  font-weight: 600;
+  color: #333;
 }
 
-/* Description of the service */
-.service-description {
-  padding: 10px 15px 0 15px;
-  font-size: 1rem;
-  font-weight: 500;
-  text-align: center;
-  color: #333;
+/* Price below the description */
+.service-price {
+  padding: 10px;
+  font-size: 1.2rem;        /* Slightly larger text */
+  font-weight: bold;
+  background-color: #f9f9f9;
+  width: 100%;              /* Stretch to container */
 }
