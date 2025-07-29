@@ -86,7 +86,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.5; /* change to control how faded it looks */
+  opacity: 0.75; /* change to control how faded it looks */
   z-index: -1;
 }
 
@@ -95,7 +95,7 @@ body {
   position: relative;
   z-index: 1;
   padding: 60px 20px;
-  color: #fff; /* white text stands out better */
+  color: #000000; /* white text stands out better */
   text-align: center;
 }
 
