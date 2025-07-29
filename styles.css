@@ -3,6 +3,14 @@ body {
   margin: 20px;
 }
 
+.site-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #222;  /* Dark gray or your choice */
+  margin: 40px 0;
+}
+
 nav {
     background-color: #f0f0f0;
     padding: 10px;
