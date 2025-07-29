@@ -153,3 +153,95 @@ a:focus, button:focus, input:focus, textarea:focus, select:focus {
 a:hover, button:hover, input:hover, textarea:hover, select:hover {
   outline: none;
 }
+
+body {
+  background-color: #fff;      /* Light background */
+  color: #333;                 /* Dark text for contrast */
+}
+
+a {
+  color: #005FCC;              /* Blue color for links */
+}
+
+a:hover {
+  color: #003366;              /* Darker blue on hover */
+}
+
+button {
+  background-color: #005FCC;   /* Button background */
+  color: white;                /* Button text */
+}
+
+button:focus {
+  background-color: #003366;   /* Darker button on focus */
+}
+
+body {
+  font-size: 1rem;            /* Use rem units for scalable font sizes */
+  line-height: 1.6;           /* Increase line height for better readability */
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1.125rem;        /* Slightly larger paragraph text */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    font-size: 1.25rem;         /* Increase text size for readability */
+  }
+}
+
+/* Example of flexible, fluid layout using flexbox */
+.container {
+  display: flex;
+  flex-wrap: wrap;  /* Allow items to wrap to next line */
+  justify-content: space-between;
+}
+
+.item {
+  flex: 1;          /* Flex items will grow to fill space */
+  padding: 20px;
+  min-width: 250px;  /* Ensure readability on small screens */
+}
+
+a, button, input, textarea, select {
+  padding: 15px 30px;    /* Ensure touchable elements are large */
+  font-size: 1rem;       /* Larger font for readability */
+}
+
+/* Additional mobile adjustments */
+@media (max-width: 768px) {
+  a, button, input, textarea, select {
+    font-size: 1.2rem;   /* Larger font for mobile */
+    padding: 20px;       /* Larger padding for better tapping */
+  }
+}
+
+button {
+  background-color: #005FCC;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003366;
+}
+
+button:focus {
+  outline: 3px solid #FF6600; /* High contrast for focus */
+}
+
+button:active {
+  background-color: #001A33; /* Darker on active */
+}
