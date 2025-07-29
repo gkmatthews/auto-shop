@@ -30,7 +30,7 @@ h5 {
 }
 
 h6 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 /* Increase the size of paragraphs */
@@ -162,9 +162,9 @@ nav a:hover {
   }
 
   nav a {
-    font-size: 1.5rem;         /* larger font for mobile */
-    padding: 15px 30px;        /* more padding for easier tapping */
-    margin: 10px 0;            /* more space between links */
+    font-size: 3rem;         /* larger font for mobile */
+    padding: 30px 60px;        /* more padding for easier tapping */
+    margin: 20px 0;            /* more space between links */
     text-align: center;
     width: 100%;               /* make each link take full width */
   }
