@@ -141,3 +141,15 @@ nav a:hover {
     background-color: #444;    /* darker background on hover */
   }
 }
+
+/* Default focus styles for better visibility */
+a:focus, button:focus, input:focus, textarea:focus, select:focus {
+  outline: 3px solid #005FCC;  /* A clear and visible outline */
+  outline-offset: 2px;          /* Slight offset for better visibility */
+  border: none;                /* Remove default browser outline (if needed) */
+}
+
+/* Optional: remove focus outline on mouse hover but keep it for keyboard navigation */
+a:hover, button:hover, input:hover, textarea:hover, select:hover {
+  outline: none;
+}
