@@ -5,20 +5,20 @@ body {
 
 .site-title {
   font-family: 'Inter', sans-serif;
-  font-size: 4vm;
+  font-size: 4rem;
   text-align: center;
   color: white;  /* Dark gray or your choice */
   margin: 40px 0;
-  -webkit-text-stroke: 0.75vw black;  /* Outline scales with text size */
+  -webkit-text-stroke: 0.75rem black;  /* Outline scales with text size */
 }
 
 .site-subtitle {
   font-family: 'Inter', sans-serif;
-  font-size: 3vm;
+  font-size: 3rem;
   text-align: center;
   color: white;  /* Dark gray or your choice */
   margin: 40px 0;
-  -webkit-text-stroke: 0.5vw black;  /* Outline scales with text size */
+  -webkit-text-stroke: 0.5rem black;  /* Outline scales with text size */
 }
 
 .site-subsubtitle {
@@ -27,7 +27,7 @@ body {
   text-align: center;
   color: white;  /* Dark gray or your choice */
   margin: 40px 0;
-  -webkit-text-stroke: 0.1vw black;  /* Outline scales with text size */
+  -webkit-text-stroke: 0.1rem black;  /* Outline scales with text size */
 }
 
 nav {
