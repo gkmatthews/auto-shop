@@ -202,7 +202,7 @@ nav a:hover {
   }
 
   nav a {
-    font-size: 3rem;         /* larger font for mobile */
+    font-size: 4rem;         /* larger font for mobile */
     padding: 30px 60px;        /* more padding for easier tapping */
     margin: 20px 0;            /* more space between links */
     text-align: center;
