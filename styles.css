@@ -49,12 +49,19 @@ h6 {
   font-size: 3.5rem;
 }
 
-/* Increase the size of paragraphs */
+/* Default paragraph style (for desktops and tablets) */
 p {
-  font-size: 1.25rem;  /* Adjust as needed */
-  line-height: 1.6;    /* Add line height for readability */
+  font-size: 1.125rem;
+  line-height: 1.6;
 }
 
+/* Mobile-specific styles (screens 480px wide or smaller) */
+@media (max-width: 480px) {
+  p {
+    font-size: 1.3rem;      /* Larger font size for mobile */
+    line-height: 1.7;       /* Slightly more spacing for readability */
+  }
+}
 
 nav a {
     margin: 0 15px;
