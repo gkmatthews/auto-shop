@@ -14,13 +14,21 @@ body {
 
 .site-subtitle {
   font-family: 'Inter', sans-serif;
+  font-size: 3vm;
+  text-align: center;
+  color: white;  /* Dark gray or your choice */
+  margin: 40px 0;
+  -webkit-text-stroke: 0.5vw black;  /* Outline scales with text size */
+}
+
+.site-subsubtitle {
+  font-family: 'Inter', sans-serif;
   font-size: 2vm;
   text-align: center;
   color: white;  /* Dark gray or your choice */
   margin: 40px 0;
   -webkit-text-stroke: 0.1vw black;  /* Outline scales with text size */
 }
-
 
 nav {
     background-color: #f0f0f0;
