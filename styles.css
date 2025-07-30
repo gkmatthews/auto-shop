@@ -8,6 +8,15 @@ nav {
     padding: 10px;
 }
 
+.bold-title {
+  font-weight: 700;       /* Makes the text bold */
+  font-size: 2.5rem;      /* Large size for a title */
+  font-family: 'Inter', sans-serif;  /* Clean, modern font */
+  color: #222222;         /* Dark color for good contrast */
+  margin: 1rem 0;         /* Space above and below */
+  text-align: center;     /* Center the title */
+}
+
 /* Increase the size of all headings */
 h1 {
   font-size: 2.5rem;  /* Adjust the size as needed */
