@@ -3,33 +3,6 @@ body {
   margin: 20px;
 }
 
-.site-title {
-  font-family: 'Inter', sans-serif;
-  font-size: 4rem;
-  text-align: center;
-  color: white;  /* Dark gray or your choice */
-  margin: 40px 0;
-  -webkit-text-stroke: 0.75rem black;  /* Outline scales with text size */
-}
-
-.site-subtitle {
-  font-family: 'Inter', sans-serif;
-  font-size: 3rem;
-  text-align: center;
-  color: white;  /* Dark gray or your choice */
-  margin: 40px 0;
-  -webkit-text-stroke: 0.5rem black;  /* Outline scales with text size */
-}
-
-.site-subsubtitle {
-  font-family: 'Inter', sans-serif;
-  font-size: 2vm;
-  text-align: center;
-  color: white;  /* Dark gray or your choice */
-  margin: 40px 0;
-  -webkit-text-stroke: 0.1rem black;  /* Outline scales with text size */
-}
-
 nav {
     background-color: #f0f0f0;
     padding: 10px;
