@@ -12,12 +12,29 @@ body {
 
     /* Simulate black outline */
   text-shadow:
-    -2px -2px 0 black,
-     2px -2px 0 black,
-    -2px  2px 0 black,
-     2px  2px 0 black,
-     0px  0px 2px black;  /* Slight blur */
+    -5px -5px 0 black,
+     5px -5px 0 black,
+    -5px  5px 0 black,
+     5px  5px 0 black,
+     0px  0px 5px black;  /* Slight blur */
 }
+
+.site-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: white;  /* Dark gray or your choice */
+  margin: 40px 0;
+
+    /* Simulate black outline */
+  text-shadow:
+    -5px -5px 0 black,
+     5px -5px 0 black,
+    -5px  5px 0 black,
+     5px  5px 0 black,
+     0px  0px 5px black;  /* Slight blur */
+}
+
 
 nav {
     background-color: #f0f0f0;
