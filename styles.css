@@ -69,8 +69,8 @@ p {
 /* Mobile-specific styles (screens 480px wide or smaller) */
 @media (max-width: 480px) {
   p {
-    font-size: 1.3rem;      /* Larger font size for mobile */
-    line-height: 1.7;       /* Slightly more spacing for readability */
+    font-size: 2.5rem;      /* Larger font size for mobile */
+    line-height: 3;       /* Slightly more spacing for readability */
   }
 }
 
@@ -178,7 +178,7 @@ nav a {
   color: white;
   text-decoration: none;
   padding: 12px 20px; /* space around the text */
-  font-size: 1.75rem;     /* default font size */
+  font-size: 2.25rem;     /* default font size */
   font-weight: bold;
   margin: 0 10px;
   border-radius: 5px;
@@ -196,9 +196,9 @@ nav a:hover {
   }
 
   nav a {
-    font-size: 4rem;         /* larger font for mobile */
-    padding: 30px 60px;        /* more padding for easier tapping */
-    margin: 20px 0;            /* more space between links */
+    font-size: 5rem;         /* larger font for mobile */
+    padding: 40px 70px;        /* more padding for easier tapping */
+    margin: 25px 0;            /* more space between links */
     text-align: center;
     width: 100%;               /* make each link take full width */
   }
@@ -259,12 +259,6 @@ p {
   font-size: 1.125rem;        /* Slightly larger paragraph text */
 }
 
-@media (prefers-reduced-motion: reduce) {
-  body {
-    font-size: 1.25rem;         /* Increase text size for readability */
-  }
-}
-
 /* Example of flexible, fluid layout using flexbox */
 .container {
   display: flex;
@@ -281,14 +275,6 @@ p {
 a, button, input, textarea, select {
   padding: 15px 30px;    /* Ensure touchable elements are large */
   font-size: 1rem;       /* Larger font for readability */
-}
-
-/* Additional mobile adjustments */
-@media (max-width: 768px) {
-  a, button, input, textarea, select {
-    font-size: 2rem;   /* Larger font for mobile */
-    padding: 50px;       /* Larger padding for better tapping */
-  }
 }
 
 button {
