@@ -21,6 +21,7 @@
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       width: 320px;
+      z-index: 9998; /* stays above popup overlay */
     }
     h2 {
       margin-bottom: 15px;
@@ -53,6 +54,22 @@
       background: #0056b3;
     }
 
+    nav {
+      background: #333;
+      padding: 10px;
+      position: relative;
+      z-index: 10000; /* stays above popup overlay */
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+        
     /* Popup styles */
     #thankYouPopup {
       display: none;
