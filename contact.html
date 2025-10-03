@@ -67,6 +67,13 @@
       text-align: center;
       box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     }
+
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh; /* adjust as needed */
+    }
   </style>
 </head>
 <body>
@@ -78,7 +85,8 @@
     </nav>
     <h1>Contact Us</h1>
     <p>Call or Text (719) 329-4422</p>
-    
+
+<div class="form-container">
     <form id="contactForm" action="https://formspree.io/f/xyznjnnn" method="POST">
         <h2>Contact Us</h2>
     
@@ -93,7 +101,7 @@
     
         <button type="submit">Send</button>
   </form>
-    
+</div>
       <!-- Popup -->
   <div id="thankYouPopup">
     <div>
