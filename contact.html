@@ -12,8 +12,10 @@
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      width: 320px;
-      z-index: 9998; /* stays above popup overlay */
+      width: 100%;          /* fill available width */
+      max-width: 600px;     /* optional: limits width on large screens */
+      box-sizing: border-box; /* ensures padding is included in width */
+      z-index: 9998;
     }
     h2 {
       margin-bottom: 15px;
@@ -73,6 +75,7 @@
       justify-content: center;
       align-items: center;
       min-height: 80vh; /* adjust as needed */
+      padding: 10px; /* space from screen edges */
     }
   </style>
 </head>
